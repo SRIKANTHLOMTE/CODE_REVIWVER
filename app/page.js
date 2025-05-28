@@ -30,7 +30,7 @@ export default function Home() {
        }
         setprompt("Analyzing....")
         try {
-           const res=await fetch("http://localhost:3000/api/ai-response",{
+           const res=await fetch("/api/ai-response",{
           credentials:"include",
           method:"POST",
           headers:{
