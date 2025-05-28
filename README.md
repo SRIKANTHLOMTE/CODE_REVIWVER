@@ -27,19 +27,21 @@ git clone https://github.com/your-username/ai-code-reviewer.git
 cd ai-code-reviewer
 ```
 ## Install dependencies
+```bash
 npm install
 Add environment variables
 Create a .env.local file:
 API_KEY=your_api_key_here
 npm run dev
-
+```
 ##Tech Stack
+
 Next.js 14 (App Router)
 
 Tailwind CSS
 
 React Markdown + Rehype Highlight
 
-OpenAI API
+Gemini API
 
 Prism.js
