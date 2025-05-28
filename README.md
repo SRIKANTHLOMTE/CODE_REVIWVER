@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🤖 AI Code Reviewer (Scar, Simple, Pro & Dude Modes)
 
-## Getting Started
+A powerful, sarcastic, and witty AI-based code reviewer that analyzes your code and gives feedback with style — from a chill **Simple Mode**, to a brutally honest **Scar Mode**, and even a hilarious **Dude Mode** who says _"bhai dekh"_ like your local dev buddy.
 
-First, run the development server:
+## 🌟 Features
+
+- 🧠 Uses AI's API to analyze and roast code smartly.
+- 🌈 4 Review Modes:
+  - ✅ **Simple Mode** – Polite, beginner-friendly AI.
+  - 🧑‍💼 **Professional Mode** – Formal, expert-style code reviews.
+  - 😈 **Scar Mode** – Sarcastic, witty, brutally honest reviewer.
+  - 🧢 **Dude Mode** – Desi-style hilarious reviews with "bhai dekh" swag.
+- 📝 Live code editing using [`react-simple-code-editor`](https://github.com/satya164/react-simple-code-editor) with `Prism.js` syntax highlighting.
+- 🎨 Markdown support with `react-markdown` and `rehype-highlight`.
+- 🕵️‍♂️ Auto-scroll, syntax highlighting, text wrapping, and max 5-line textarea resizing.
+- 📤 Sends code to an API route for review and renders markdown-styled responses beautifully.
+
+## 📂 Project Structure
+
+
+## 🚀 Getting Started
+
+### 1. Clone the repo
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/your-username/ai-code-reviewer.git
+cd ai-code-reviewer
 ```
+## Install dependencies
+npm install
+Add environment variables
+Create a .env.local file:
+API_KEY=your_api_key_here
+npm run dev
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+##Tech Stack
+Next.js 14 (App Router)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Tailwind CSS
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+React Markdown + Rehype Highlight
 
-## Learn More
+OpenAI API
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Prism.js
