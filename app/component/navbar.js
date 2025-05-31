@@ -25,7 +25,7 @@ const component = () => {
   };
   return (
     <div className='h-[8vh] bg-purple-700 text-white flex items-center justify-between px-10'>
-      <p className='font-mono hover:cursor-pointer'>Code By Sachin</p>
+      <p className='font-mono hover:cursor-pointer'>Code Viewer</p>
       <div className='flex gap-4 '>
         <Image
         className='invert hover:scale-125 cursor-pointer duration-150'
