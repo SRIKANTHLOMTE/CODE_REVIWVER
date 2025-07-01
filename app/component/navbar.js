@@ -12,7 +12,7 @@ const component = () => {
    const router = useRouter();
 
   const handlelinkedin = () => {
-    router.push("https://www.linkedin.com/in/sachin-giri-3a776b2a3/");
+    router.push("https://www.linkedin.com/in/srikanth-lomte-6a9974223//");
   };
   const handlelinsta= () => {
     router.push("https://www.instagram.com/sachingiri.01");
